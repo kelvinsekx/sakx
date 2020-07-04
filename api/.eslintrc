@@ -1,0 +1,9 @@
+{
+    "etends" : "airbnb-base",
+    "env": {
+        "node" : "true"
+    },
+    "rules": {
+        "no-onsole" : "off"
+    }
+}
