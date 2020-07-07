@@ -1,24 +1,9 @@
-import graphQLFetch from "./graphQLFetch"
+import "babel-polyfill";
+import "whatwg-fetch";
+import React from "react";
+import ReactDOM from "react-dom";
 
-function IssueRow(props) {
-  const issue = props.issue;
-  return (
-    <tr>
-      <td>{issue.id}</td>
-      <td>{issue.status}</td>
-      <td>{issue.owner}</td>
-      <td>{issue.created.toDateString()}</td>
-      <td>{issue.effort}</td>
-      <td>{issue.due ? issue.due.toDateString() : ""}</td>
-      <td>{issue.title}</td>
-    </tr>
-  );
-}
-
-
-
-
-
+import IssueList from "./IssueList.jsx";
 
 const element = <IssueList />;
 

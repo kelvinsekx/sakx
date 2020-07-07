@@ -1,3 +1,6 @@
+import React from "react"
+
+
 export default class IssueAdd extends React.Component {
   constructor() {
     super();
@@ -28,6 +31,6 @@ export default class IssueAdd extends React.Component {
   }
 }
 
-IssueAdd.propTypes = {
-  createIssue: propTypes.func.isRequired,
-};
+// IssueAdd.propTypes = {
+//   createIssue: propTypes.func.isRequired,
+// };
