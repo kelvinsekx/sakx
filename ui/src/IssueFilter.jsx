@@ -1,7 +1,12 @@
-import React from "react"
+import React from "react";
 
 export default class IssueFilter extends React.Component {
   render() {
-    return <div>This is a placeholder for the issue filter.</div>;
+    return (
+    <div>
+      <a href="/#/issues">All Issues</a>{" | "}
+      <a href="/#/issues?status=New">New Issues</a>{" | "}
+      <a href="/#/issues?status=Assigned">Assigned Issues</a>
+    </div>);
   }
 }
